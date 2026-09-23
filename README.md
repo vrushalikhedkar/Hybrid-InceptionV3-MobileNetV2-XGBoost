@@ -45,6 +45,7 @@ flowchart TD
 ## Architecture Flow
 
 Input Image
+
      │
      ├──────────────► InceptionV3 ──► 2048 Features
      │
