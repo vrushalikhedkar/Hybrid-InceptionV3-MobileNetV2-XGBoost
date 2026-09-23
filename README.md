@@ -1,28 +1,28 @@
-Hybrid Image Classification using InceptionV3 + MobileNetV2 with PCA and XGBoost
+# Hybrid Image Classification using InceptionV3 + MobileNetV2 with PCA and XGBoost
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project implements a hybrid deep learning approach for Horse vs Human image classification.
 
 Two pretrained CNN models are used in parallel to extract features from the same input image:
 
-InceptionV3
+- InceptionV3
 
-MobileNetV2
+- MobileNetV2
 
 The extracted features are fused and then passed through StandardScaler, PCA, and XGBoost for final classification.
 
-🎯 Objective
+## 🎯 Objective
 
 The objective of this project is to classify an input image into:
 
-Horse
+- Horse
 
-Human
+- Human
 
 The project uses two pretrained CNN architectures as feature extractors instead of relying on a single CNN model.
 
-🏗️ Model Architecture
+## 🏗️ Model Architecture
 
 flowchart TD
     A[Input Image] --> B[InceptionV3]
@@ -41,7 +41,7 @@ flowchart TD
     J --> K[XGBoost]
     K --> L[Horse / Human]
 
-Architecture Flow
+## Architecture Flow
 
 Input Image
      │
