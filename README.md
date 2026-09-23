@@ -25,6 +25,7 @@ The project uses two pretrained CNN architectures as feature extractors instead 
 ## 🏗️ Model Architecture
 
 flowchart TD
+
     A[Input Image] --> B[InceptionV3]
     A --> C[MobileNetV2]
 
