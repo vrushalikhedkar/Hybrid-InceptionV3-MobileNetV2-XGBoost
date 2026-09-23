@@ -47,5 +47,5 @@ Author
 Vrushali V. Khedkar
 
 
-<img src="confusion_Matrix_grph.png" width="500">
+<img src="Hybrid_image_classification.png" width="500">
 
